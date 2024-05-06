@@ -44,7 +44,7 @@ CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'aungyekyaw@123';
  ```sql
    CREATE CERTIFICATE democert
    FROM FILE = 'F:\dbbackups\democert_cert.cer'
-   WITH PRIVATE KEY (FILE = 'F:\dbbackups\democert_key.key', DECRYPTION BY PASSWORD = 'abc@1123');
+   WITH PRIVATE KEY (FILE = 'F:\dbbackups\democert_key.key', DECRYPTION BY PASSWORD = 'AYK@1123');
 ```
 9. **Restore the Encrypted Database**:
  ```sql
