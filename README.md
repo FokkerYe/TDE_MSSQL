@@ -26,7 +26,7 @@ WITH PRIVATE KEY (FILE = 'F:\dbbackups\democert_key.key' , ENCRYPTION BY PASSWOR
 ```
 5. **Set Encryption ON for the Database**:
    ```sql
-   ALTER DATABASE demo SET ENCRYPTION ON;
+   ALTER DATABASE mydb SET ENCRYPTION ON;
 
    ```
 6. **Verify Encryption Status**:
